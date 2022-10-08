@@ -36,6 +36,7 @@ public class CompraService {
 	}
 
     public Compra realizaCompraFallback(CompraDTO compraDTO) {
+        // pode ir no banco em memoria, etc.
         Compra compra = new Compra();
         compra.setEnderecoDestino("teste");
         return compra;
